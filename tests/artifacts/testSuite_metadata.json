@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "checkSuccess2",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "auction",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "checkSenderAndValue",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {
+				"beforeAll()": {
+					"notice": "'beforeAll' runs before all other tests More special functions are: 'beforeEach', 'beforeAll', 'afterEach' & 'afterAll'"
+				},
+				"checkSenderAndValue()": {
+					"notice": "Custom Transaction Context: https://remix-ide.readthedocs.io/en/latest/unittesting.html#customization #sender: account-1 #value: 100"
+				}
+			}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/Auction_test.sol": "testSuite"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Auction.sol": {
+			"keccak256": "0xbfc42d3edc73ea8e35bad9c288c7a9a1216ec86d4c8c9c1284d4639cd294c92c",
+			"urls": [
+				"bzzr://134e917fc1945ef4015ece9e4e20adb0cf5c1c7611cfe896753579152190390e"
+			]
+		},
+		"remix_accounts.sol": {
+			"keccak256": "0x198a94b8e0342a81c31fda8ba387964155802ef81807e01e83e2320682dce327",
+			"urls": [
+				"bzzr://2bff8364ade4e6e58cdf5aa5daaf8f26499e80e8f94fce7fb37033dcfc6dfd85"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"urls": [
+				"bzzr://cfd77e0ea2b0d86dc68ac80b1693ae358a9f2972edb9fd5552bd33960715a5ff"
+			]
+		},
+		"tests/Auction_test.sol": {
+			"keccak256": "0x5ee6b54e12fee3b695d09cfc4d218ad60a253e6db67c8047f394a5829575af56",
+			"urls": [
+				"bzzr://7ec5955fa2a665f93c79f445f596d7b2057da4db6ddac7211911aec7f0df8e2d"
+			]
+		}
+	},
+	"version": 1
+}

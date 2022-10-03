@@ -153,9 +153,9 @@
 	},
 	"sources": {
 		"contracts/Auction.sol": {
-			"keccak256": "0xf632ffa6ce8d9610b7fcffd9d350ed079986df1b6afe3e522245130c9e460dc2",
+			"keccak256": "0xbfc42d3edc73ea8e35bad9c288c7a9a1216ec86d4c8c9c1284d4639cd294c92c",
 			"urls": [
-				"bzzr://31f847cf5eaf2e9089ac2278a36e9478052126aea272acd915a748be92ebfdd5"
+				"bzzr://134e917fc1945ef4015ece9e4e20adb0cf5c1c7611cfe896753579152190390e"
 			]
 		}
 	},

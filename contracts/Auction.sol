@@ -95,8 +95,8 @@ contract Auction {
         uint balance = tokenDetails[msg.sender].remainingTokens - _count;
         //** End code here. **
         
-        tokenDetails[msg.sender].remainingTokens=balance;
-        bidders[tokenDetails[msg.sender].personId].remainingTokens=balance;//updating the same balance in bidders map.
+        tokenDetails[msg.sender].remainingTokens = balance;
+        bidders[tokenDetails[msg.sender].personId].remainingTokens = balance;//updating the same balance in bidders map.
         
         Item storage bidItem = items[_itemId];
         for(uint i=0; i<_count;i++) {
@@ -135,7 +135,6 @@ contract Auction {
 
             // ** Start coding here *** 1 line approximately.
             winners[id] = bidders[winnerId].addr;
-                    
             //** end code here*
                 
             }
